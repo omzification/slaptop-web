@@ -1,0 +1,84 @@
+<div id="accordion">
+  <h3>Personal Statement</h3>
+  <div style="font-size: 1.25rem;">
+  
+    <div style="margin: 1.25rem;">
+  Economics and Management undergraduate student at Royal Holloway University expecting to graduate summer 2024. Previous experience in pressured fast-paced team environments, working as a bartender at one of the busiest roof top bars in London. Bilingual in Arabic, with intermediate R Script, CSS and HTML and basic Python and JavaScript.
+
+  </div>
+  </div>
+  <h3>Education</h3>
+<div style="font-size: 1.25rem;">
+  
+    <div style="margin: 1.25rem;">
+      <strong>Royal Holloway, University of London</strong> 
+       <div style="text-align: right; font-weight: lighter; font-size: 1rem; margin: 0.25rem; margin-right: 0.5rem">Sep 2021 – Jun 2024</div>
+      <div style="margin: 0.5rem; font-size: 1rem; margin-top: 0px; margin-right:0px">
+     
+        <strong>BSc (Hons) in Economics and Management</strong><br>
+        Expected Result: First-Class Honours.
+      </div>
+    </div>
+  <div style="margin: 1.25rem;">
+        <strong>Barnet and Southgate College</strong> 
+        <div style="text-align: right; font-weight: lighter; font-size: 1rem; margin: 0.25rem; margin-right: 0.5rem">Sep 2019 – Jun 2021</div>
+        <div style="margin: 0.5rem; font-size: 1rem; margin-top: 0px; margin-right:0px">
+          <strong>A-Levels:</strong>
+          Mathematics (B), Economics (B), Psychology (B)
+        </div>
+      </div>
+   <div style="margin: 1.25rem;">
+        <strong>King Solomon Academy</strong> 
+        <div style="text-align: right; font-weight: lighter; font-size: 1rem; margin: 0.25rem; margin-right: 0.5rem">Sep 2013 – Jun 2017</div>
+        <div style="margin: 0.5rem; font-size: 1rem; margin-top: 0px; margin-right:0px">
+          <strong>GCSEs:</strong>
+          Mathematics (A*), Additional Science (A*), Further Additional Science (A), Core Science (A), English Language (A), Geography (A), English Literature (B), Spanish (B), History (B), French (B)
+        </div>
+      </div>
+  
+</div>
+  <h3>Experience</h3>
+<div style="font-size: 1.25rem;">
+   <div style="margin: 1.25rem;">
+        <strong>Bartender | Ninth Ward</strong> 
+        <div style="text-align: right; font-weight: lighter; font-size: 1rem; margin: 0.25rem; margin-right: 0.5rem">May 2022 – Present</div>
+      </div>
+              <div style="margin: 1.25rem;">
+        <strong>Volunteer | Empowerment London</strong> 
+        <div style="text-align: right; font-weight: lighter; font-size: 1rem; margin: 0.25rem; margin-right: 0.5rem">Jul 2022 – Present</div>
+      </div>
+         <div style="margin: 1.25rem;">
+        <strong>Team Leader | Pergola Paddington</strong> 
+        <div style="text-align: right; font-weight: lighter; font-size: 1rem; margin: 0.25rem; margin-right: 0.5rem">Jul 2020 – Aug 2021</div>
+      </div>
+</div>
+
+</div>
+
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion({
+    heightStyle: "content",
+    collapsible: true,
+    animate: false,
+    active: false
+  });
+    // Bind a callback function to the accordion's 'activate' event
+    $( "#accordion" ).on( "accordionactivate", function( event, ui ) {
+      // Get the dialog element
+      var $dialog = $( ".cv" );
+      // Animate the accordion panel and the dialog simultaneously
+      $dialog.queue( function() {
+        var $this = $(this);
+
+        $this.animate({
+          left: ( $( window ).width() - $this.outerWidth() ) / 2,
+          top: ( $( window ).height() - $this.outerHeight() ) / 2
+        }, 500);
+        $this.dequeue();
+      } );
+    } );
+  });
+  </script>
+
+  

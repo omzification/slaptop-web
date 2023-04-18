@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "title": "Terms of Service",
+      "id": "ToS",
+      "src": "/pages/ToS.txt"
+    },
+    {
+      "title": "Privacy Policy",
+      "id": "pp",
+      "src": "/pages/pp.txt"
+    },
+    {
+      "title": "About",
+      "id": "about",
+      "src": "/pages/about.txt"
+    },
+    {
+      "title": "Projects",
+      "id": "proj",
+      "src": "/pages/proj.txt"
+    },
+    {
+      "title": "Contact",
+      "id": "contact",
+      "src": "/pages/contact.txt"
+    },
+    {
+      "title": "CV",
+      "id": "cv",
+      "src": "/pages/cv.txt"
+    },
+    {
+      "title": "",
+      "id": "nf",
+      "src": "/pages/nf.txt"
+    }
+  ],
+
+  "wallpapers": [
+    {
+      "title": "flowers",
+      "id": "flowey",
+      "icon": "wallpapers/wallpaper-icons/Flowey_icon.png",
+      "src": "wallpapers/wallpaper/Flower.png"
+    },
+    {
+      "title": "new shoes",
+      "id": "crep",
+      "icon": "wallpapers/wallpaper-icons/Crep_icon.png",
+      "src": "wallpapers/wallpaper/Creps.png"
+    },
+    {
+      "title": "toughie",
+      "id": "rock",
+      "icon": "wallpapers/wallpaper-icons/Rock_icon.png",
+      "src": "wallpapers/wallpaper/Tough.png"
+    },
+    {
+      "title": "crowded",
+      "id": "crowded",
+      "icon": "wallpapers/wallpaper-icons/Crowd_icon.png",
+      "src": "wallpapers/wallpaper/Crowded.png"
+    }
+  ]
+}

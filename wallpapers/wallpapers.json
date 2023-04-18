@@ -1,0 +1,27 @@
+[
+  {
+    "title": "here's a flower",
+    "id": "flowey",
+    "icon": "wallpapers/wallpaper-icons/Flowey_icon.png",
+    "src": "wallpapers/wallpaper/Flower.png"
+  },
+  {
+    "title": "new shoes, feelin' fly",
+    "id": "crep",
+    "icon": "wallpapers/wallpaper-icons/Crep_icon.png",
+    "src": "wallpapers/wallpaper/Creps.png"
+  },
+  {
+    "title": "what a toughie",
+    "id": "rock",
+    "icon": "wallpapers/wallpaper-icons/Rock_icon.png",
+    "src": "wallpapers/wallpaper/Tough.png"
+  },
+
+  {
+    "title": "crowded",
+    "id": "crowded",
+    "icon": "wallpapers/wallpaper-icons/Crowd_icon.png",
+    "src": "wallpapers/wallpaper/Crowded.png"
+  }
+]
