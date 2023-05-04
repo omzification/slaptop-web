@@ -8,17 +8,7 @@ const os = {};
 let errorMessageDisplayed = false;
 
 function errorMessage(error) {
-  if (!errorMessageDisplayed) {
-    const errorPage = '<p class="error">uh oh. something went wrong :(</p><p class="error">' + error + '</p>';
-    $('div').remove(); 
-    $('nav').remove();
-    $('body').append(errorPage);
-    errorMessageDisplayed = true;
-  }
-  else {
-    const errorPage = '<p class="error">' + error + '</p>';
-    $('body').append(errorPage); 
-  }
+
 }
 
 
@@ -862,3 +852,48 @@ function repositionDialog(dialog) {
   $dialog.dialog("option", "position", { my: "center", at: "center", of: "#desktop" });
 }
 
+function findHighestZIndex(elem) {
+  var highest = 0;
+  var highestElement = null;
+  var elems = document.getElementsByClassName(elem);
+
+  for (var i = 0; i < elems.length; i++) {
+    var style = document.defaultView.getComputedStyle(elems[i], null);
+    var zindex = style.getPropertyValue("z-index");
+    var ElementDisplay = style.getPropertyValue("display");
+
+    if ((zindex != 'auto') && (+zindex > highest) && (ElementDisplay == 'block')) {
+      highest = zindex;
+      highestElement = elems[i];
+    }
+  }
+
+  return highestElement;
+}
+
+var elem = null;
+
+dialogAnalytics = {};
+dialogAnalytics.dialogPath = [];
+dialogAnalytics.dialogs = {};
+
+$("body").on("drag click", function () {
+  var newElem = findHighestZIndex("ui-dialog");
+if (newElem === elem) {
+
+} else {
+   var title = '' + newElem.querySelector('.ui-dialog-title').innerHTML + '';
+   dialogAnalytics.dialogPath.push(title);
+
+   dialogAnalytics.dialogs[title] = {
+    open: 'var',
+    time: 'var'
+   };
+
+  console.log(dialogAnalytics);
+
+    elem = newElem;
+
+    
+}
+})

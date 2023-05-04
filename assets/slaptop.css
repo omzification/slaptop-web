@@ -195,13 +195,13 @@ nav {
   position: fixed;
   right: 2.5%;
   top: 2.5%;
-  z-index: 5000;
+  z-index: 100;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 nav > * {
-  z-index: 5000;
+  z-index: 100;
 }
 
 #nav-logo {
