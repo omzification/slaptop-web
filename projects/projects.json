@@ -1,8 +1,8 @@
 [
 {
     "title": "slaptop",
-    "id": "slaptop",
-    "icon": "wallpapers/wallpaper-icons/Rock_icon.png",
-    "src": "wallpapers/wallpaper/Tough.png"
+    "id": "slaptop-site",
+    "icon": "assets/icons/Text.png",
+    "src": "projects/slaptop.txt"
   }
 ]

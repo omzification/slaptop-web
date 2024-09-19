@@ -1,1 +1,1 @@
-<iframe class="pdf" src="/pages/CurriculumVitae.pdf"></iframe>
+<iframe class="pdf" src="/pages/CurriculumVitae.pdf" width="800" height="500"></iframe>
