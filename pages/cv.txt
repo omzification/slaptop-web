@@ -1,1 +1,1 @@
-<iframe class="pdf" src="/Users/Omar/Documents/GitHub/slaptop-web/pages/CurriculumVitae.pdf"></iframe>
+<iframe class="pdf" src="/pages/CurriculumVitae.pdf"></iframe>
