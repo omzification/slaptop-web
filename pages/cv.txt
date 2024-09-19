@@ -3,7 +3,7 @@
   <div style="font-size: 1.25rem;">
   
     <div style="margin: 1.25rem;">
-  Economics and Management undergraduate student at Royal Holloway University expecting to graduate summer 2024. Previous experience in pressured fast-paced team environments, working as a bartender at one of the busiest roof top bars in London. Bilingual in Arabic, with intermediate R Script, CSS and HTML and basic Python and JavaScript.
+  Economics and Management Graduate. Previous part-time experience in fast paced team environments, working at some of the busiest bars/restaurants in London. Bilingual in Arabic with strong RScript and Python.
 
   </div>
   </div>
@@ -15,8 +15,8 @@
        <div style="text-align: right; font-weight: lighter; font-size: 1rem; margin: 0.25rem; margin-right: 0.5rem">Sep 2021 – Jun 2024</div>
       <div style="margin: 0.5rem; font-size: 1rem; margin-top: 0px; margin-right:0px">
      
-        <strong>BSc (Hons) in Economics and Management</strong><br>
-        Expected Result: First-Class Honours.
+        <strong>BSc in Economics and Management, Second Class Honours (Upper).</strong><br>
+        Notable Modules: Financial Economics, Financial Econometrics, Managerial Accounting, Management Consulting, Consumer Behaviour, Data Skills for Economists.
       </div>
     </div>
   <div style="margin: 1.25rem;">
@@ -40,16 +40,16 @@
   <h3>Experience</h3>
 <div style="font-size: 1.25rem;">
    <div style="margin: 1.25rem;">
-        <strong>Bartender | Ninth Ward</strong> 
-        <div style="text-align: right; font-weight: lighter; font-size: 1rem; margin: 0.25rem; margin-right: 0.5rem">May 2022 – Present</div>
+        <strong>Intern | Hello Group</strong> 
+        <div style="text-align: right; font-weight: lighter; font-size: 1rem; margin: 0.25rem; margin-right: 0.5rem">Aug 2024 – Sept 2024</div>
       </div>
               <div style="margin: 1.25rem;">
         <strong>Volunteer | Empowerment London</strong> 
-        <div style="text-align: right; font-weight: lighter; font-size: 1rem; margin: 0.25rem; margin-right: 0.5rem">Jul 2022 – Present</div>
+        <div style="text-align: right; font-weight: lighter; font-size: 1rem; margin: 0.25rem; margin-right: 0.5rem">April 2022 – Aug 2023</div>
       </div>
          <div style="margin: 1.25rem;">
         <strong>Team Leader | Pergola Paddington</strong> 
-        <div style="text-align: right; font-weight: lighter; font-size: 1rem; margin: 0.25rem; margin-right: 0.5rem">Jul 2020 – Aug 2021</div>
+        <div style="text-align: right; font-weight: lighter; font-size: 1rem; margin: 0.25rem; margin-right: 0.5rem">Feb 2021 – Aug 2021</div>
       </div>
 </div>
 

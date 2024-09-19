@@ -183,7 +183,7 @@ async function fetchSlaptopData() {
 // Fetch Flickr data
 async function fetchFlickrData() {
   try {
-    const response = await fetch('https://slaptop.azurewebsites.net/api/flickr', {
+    const response = await fetch('https://slaptop-functions.azurewebsites.net/api/flickr', {
       method: 'get'
     });
     if (!response.ok) {

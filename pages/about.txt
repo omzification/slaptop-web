@@ -1,16 +1,16 @@
 <div style="font-size: 1.25rem;">
 Welcome to my website!
 <br><br>
-This site began as a bid to impress potential employers with an online portfolio (if you're one of those feel free to connect with me on <a href="https://www.linkedin.com/in/omardirar/">LinkedIn</a>).
+This site is a web portfolio that I’ve been coding and designing in my free time.
 I began development in October 2022 and have taught myself how to write HTML, CSS and jquery.
 Whilst there were moments I'd want to tear my hair out, my love for a good puzzle kept me going!
 This site has provided both an intellectual challenge and a creative outlet and has led to me experimenting with other languages (PHP, JavaScript and Python) as well as 3d modelling and rendering in Blender.
 <br><br>
-If you would like a closer look at the source code or anything else I may be working on feel free to check out my <a href="https://github.com/omzification">GitHub</a>.
+If you would like a closer look at the source code or anything else I may be working on feel free to check out my <a href="https://github.com/omzification">GitHub</a> or reach out on <a href="https://www.linkedin.com/in/omardirar/">LinkedIn</a>.
 <br><br>
 In my free time I also enjoy some <a href="https://www.flickr.com/people/omardirar/">amateur photography</a>, <a href="https://open.spotify.com/user/tb83ky79gj2ch6pcy2fwqy914?si=b2c039309c914eb2">live music</a> and a <a href="https://www.goodreads.com/omardirar">good book</a>.
 <br><br>
-- Omar :)
+- Omar
 </div>
 
 
