@@ -543,7 +543,7 @@ async function loadProjects() {
           duration: 500,
         },
       })
-      .addClass("content-" + id);
+      .addClass("folder-" + id);
     dialog.append(content);
   });
 }

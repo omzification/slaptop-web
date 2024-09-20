@@ -77,6 +77,6 @@
         );
 
       $(".extlink-cv").on("click", function () {
-        window.open("./CurriculumVitae.pdf")
+        window.open("./pages/CurriculumVitae.pdf")
       });
   </script>

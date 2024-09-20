@@ -454,6 +454,15 @@ input, button, select, textarea, optgroup, option {
   height: 20px;
 }
 
+.ui-dialog-titlebar-extlink {
+  position: absolute;
+  right: 2em;
+  top: 50%;
+  width: 20px;
+  margin: -10px 0 0 0;
+  padding: 1px;
+  height: 20px;
+}
 
 .wallpaper {
   display: none;
