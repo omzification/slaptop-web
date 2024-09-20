@@ -1,3 +1,5 @@
 A case study that delves into the formation of an optimal investment portfolio using data on four firms traded on the LSE – Shell, Sainsbury, National Grid, and Easy Jet – along with the FTSE100 Index.
-Read it here.
-And click here to see the code I used.
+<br>
+Read it <a href="">here</a>.
+<br>
+And click <a href="">here</a> to see the code I used.

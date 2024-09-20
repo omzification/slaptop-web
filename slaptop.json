@@ -64,6 +64,12 @@
     }
   ],
   "projects":[
+    {
+      "title": "slaptop - Web Portfolio",
+      "id": "slaptop",
+      "icon": "assets/icons/Text.png",
+      "src": "projects/slaptop.txt"
+    },
       {
         "title": "ML - Loan Default Predictor",
         "id": "ML",
@@ -81,6 +87,12 @@
         "id": "Populism",
         "icon": "assets/icons/Text.png",
         "src": "projects/populism.txt"
+      },
+            {
+        "title": "Flickr Photo Chronologiser",
+        "id": "Flickr",
+        "icon": "assets/icons/Text.png",
+        "src": "projects/flickrchrono.txt"
       },
       {
         "title": "Portfolio Optimisation and Risk Management",

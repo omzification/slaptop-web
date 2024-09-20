@@ -1,0 +1,4 @@
+A short python script I wrote to arrange my Flickr photostream chronologically. 
+This script uses flickr API to change a photo's upload date to match the date the photo was taken (found in the photos EXIF data).
+<br>
+Check it out <a href="">here</a>.
