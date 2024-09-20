@@ -115,6 +115,7 @@ async function initSlaptop() {
   removeLoadingAnimation();
   loadWallpapers();
   loadPages();
+  loadProjects();
   loadPics();
 }
 
