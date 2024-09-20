@@ -68,5 +68,15 @@
         $this.dequeue();
       } );
     } );
+
   });
+        $(".cv")
+        .children(".ui-dialog-titlebar")
+        .append(
+          "<button class='extlink-cv ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-extlink' type='button' role='button' title='extlink'><span class='ui-button-icon-primary ui-icon ui-icon-extlink'></span></button>"
+        );
+
+      $(".extlink-cv").on("click", function () {
+        window.open("./CurriculumVitae.pdf")
+      });
   </script>

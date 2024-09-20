@@ -444,7 +444,7 @@ async function loadProjects() {
       '-folder" class="folder-icon" onclick="openFolder(\'' +
       id +
       '\')"><div><img src="' + icon + '"></div><span>' +
-      title +
+      id +
       "</span></div>"
     );
     $(".content-proj").append(projIcon)
