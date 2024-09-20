@@ -62,5 +62,49 @@
       "icon": "wallpapers/wallpaper-icons/Crowd_icon.png",
       "src": "wallpapers/wallpaper/Crowded.png"
     }
-  ]
+  ],
+  "projects":[
+    {
+        "title": "slaptop",
+        "id": "slaptop-site",
+        "icon": "assets/icons/Text.png",
+        "src": "projects/slaptop.txt"
+      },
+      {
+        "title": "ML Loan Default Predictor",
+        "id": "ML",
+        "icon": "assets/icons/Text.png",
+        "src": "projects/ML.txt"
+      },
+      {
+        "title": "Web Dev for Empowerment Ldn",
+        "id": "Web-Dev",
+        "icon": "assets/icons/Text.png",
+        "src": "projects/webDev.txt"
+      },
+      {
+        "title": "Populism and Housing",
+        "id": "Populism",
+        "icon": "assets/icons/Text.png",
+        "src": "projects/populism.txt"
+      },
+      {
+        "title": "Portfolio Optimisation and Risk Management",
+        "id": "Portfolios",
+        "icon": "assets/icons/Text.png",
+        "src": "projects/portfo.txt"
+      },
+      {
+        "title": "Fama and French Analysis",
+        "id": "3-Factor",
+        "icon": "assets/icons/Text.png",
+        "src": "projects/famafrench.txt"
+      },
+      {
+        "title": "Hedging in the Dairy Futures and Options Market",
+        "id": "Hedging",
+        "icon": "assets/icons/Text.png",
+        "src": "projects/hedging.txt"
+      }
+    ]
 }

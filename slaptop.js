@@ -429,6 +429,124 @@ async function loadPages() {
   });
 }
 
+// Load Projects
+
+async function loadProjects() {
+  os.slaptop.projects.forEach((project) => {
+    const title = project.title;
+    const id = project.id;
+    const icon = project.icon;
+    const src = project.src;
+    const projIcon = $(
+      '<div id="' +
+      id +
+      '-folder" class="folder-icon" onclick="openFolder(\'' +
+      id +
+      '\')"><div><img src="' + icon + '"></div><span>' +
+      title +
+      "</span></div>"
+    );
+    $(".content-proj").append(projIcon)
+
+    const content = $("<div></div>");
+    fetch(src)
+      .then((response) => response.text())
+      .then((text) => {
+        content.append(text);
+      }); 
+
+    dialog = $("<div></div>");
+    dialog
+      .dialog({
+        autoOpen: false,
+        maxHeight: 500,
+        minWidth: 300,
+        title: title,
+        dialogClass: id,
+        draggable: true,
+        drag: function (event, ui) {
+          var desktopOffset = $("#desktop").offset();
+          var desktopWidth = $("#desktop").outerWidth();
+          var desktopHeight = $("#desktop").outerHeight();
+          var dialogWidth = $(`.wallpapers`).outerWidth();
+          var dialogHeight = $(`.wallpapers`).outerHeight();
+          var dialogOffsetLeft = ui.offset.left - desktopOffset.left;
+          var dialogOffsetTop = ui.offset.top - desktopOffset.top;
+          var maxDialogOffsetLeft = desktopWidth - dialogWidth;
+          var maxDialogOffsetTop = desktopHeight - dialogHeight;
+          if (dialogOffsetLeft < 0) {
+            ui.position.left = desktopOffset.left;
+          } else if (dialogOffsetLeft > maxDialogOffsetLeft) {
+            ui.position.left = desktopOffset.left + maxDialogOffsetLeft;
+          }
+          if (dialogOffsetTop < 0) {
+            ui.position.top = desktopOffset.top ;
+          } else if (dialogOffsetTop > maxDialogOffsetTop) {
+            ui.position.top = desktopOffset.top + maxDialogOffsetTop;
+          }
+  
+        },
+        resize: function (event, ui) {
+          var desktopOffset = $("#desktop").offset();
+          var desktopWidth = $("#desktop").outerWidth();
+          var desktopHeight = $("#desktop").outerHeight();
+          var navHeight = $('nav').outerHeight();
+          var dialogWidth = ui.size.width;
+          var dialogHeight = ui.size.height;
+          var dialogOffsetLeft = ui.position.left - desktopOffset.left;
+          var dialogOffsetTop = ui.position.top - desktopOffset.top;
+          var maxDialogOffsetLeft = desktopWidth - dialogWidth;
+          var maxDialogOffsetTop = desktopHeight - dialogHeight;
+          if (dialogOffsetLeft < 0) {
+            ui.position.left = desktopOffset.left;
+          } else if (dialogOffsetLeft > maxDialogOffsetLeft) {
+            ui.position.left = desktopOffset.left + maxDialogOffsetLeft;
+          }
+          if (dialogOffsetTop < 0) {
+            ui.position.top = desktopOffset.top;
+          } else if (dialogOffsetTop > maxDialogOffsetTop) {
+            ui.position.top = desktopOffset.top + maxDialogOffsetTop;
+          }
+  
+        },
+        resizeStop: function (event, ui) {
+          var desktopOffset = $("#desktop").offset();
+          var desktopWidth = $("#desktop").outerWidth();
+          var desktopHeight = $("#desktop").outerHeight();
+          var dialogWidth = ui.size.width;
+          var dialogHeight = ui.size.height;
+          var dialogOffsetLeft = ui.position.left - desktopOffset.left;
+          var dialogOffsetTop = ui.position.top - desktopOffset.top;
+          var maxDialogOffsetLeft = desktopWidth - dialogWidth;
+          var maxDialogOffsetTop = desktopHeight - dialogHeight;
+          if (dialogOffsetLeft < 0) {
+            ui.position.left = desktopOffset.left;
+            ui.size.width = ui.size.width + dialogOffsetLeft;
+          } else if (dialogOffsetLeft > maxDialogOffsetLeft) {
+            ui.position.left = desktopOffset.left + maxDialogOffsetLeft;
+            ui.size.width = ui.size.width - (dialogOffsetLeft - maxDialogOffsetLeft);
+          }
+          if (dialogOffsetTop < 0) {
+            ui.position.top = desktopOffset.top;
+            ui.size.height = ui.size.height + dialogOffsetTop;
+          } else if (dialogOffsetTop > maxDialogOffsetTop) {
+            ui.position.top = desktopOffset.top + maxDialogOffsetTop;
+            ui.size.height = ui.size.height - (dialogOffsetTop - maxDialogOffsetTop);
+          }
+          $(this).dialog("option", "position", ui.position);
+          $(this).dialog("option", "height", ui.size.height);
+          $(this).dialog("option", "width", ui.size.width);
+        },
+        show: {
+          effect: "scale",
+          duration: 500,
+        },
+      })
+      .addClass("content-" + id);
+    dialog.append(content);
+  });
+}
+
 // Load Pics
 async function loadPics() {
   const dialog = $("<div></div>");
