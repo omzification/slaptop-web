@@ -1,0 +1,2 @@
+Some analysis along the lines of Fama and French (1992) plus a simple backtest.
+Check it out here.

@@ -1,0 +1,9 @@
+Whilst working as an intern with Hello Group, I developed a machine learning model that could predict loan default.
+One of Hello Group's product offerings is HelloPay, who provide various card payment solutions to big and small enterprises across South Africa.
+Taking inspiration from Kumar Rishabh's (2024) research, I employed machine learning models linking borrowers' electronic payment histories with their loan history, allowing HelloPay to experiment with payment-history-based underwriting.
+
+Click here to see the model*.
+
+Due to the sensitive nature of HelloPay's merchant data, the model linked does not display outputs.
+
+

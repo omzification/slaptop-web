@@ -64,14 +64,8 @@
     }
   ],
   "projects":[
-    {
-        "title": "slaptop",
-        "id": "slaptop-site",
-        "icon": "assets/icons/Text.png",
-        "src": "projects/slaptop.txt"
-      },
       {
-        "title": "ML Loan Default Predictor",
+        "title": "ML - Loan Default Predictor",
         "id": "ML",
         "icon": "assets/icons/Text.png",
         "src": "projects/ML.txt"
@@ -90,13 +84,13 @@
       },
       {
         "title": "Portfolio Optimisation and Risk Management",
-        "id": "Portfolios",
+        "id": "Portfolio",
         "icon": "assets/icons/Text.png",
         "src": "projects/portfo.txt"
       },
       {
-        "title": "Fama and French Analysis",
-        "id": "3-Factor",
+        "title": "Fama and French 3-Factor Analysis",
+        "id": "Fama-French",
         "icon": "assets/icons/Text.png",
         "src": "projects/famafrench.txt"
       },
