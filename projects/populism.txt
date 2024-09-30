@@ -1,5 +1,5 @@
-A brief research paper I did in Uni used a linear regression to explore the relationship between housing and Brexit. 
+A brief research paper I did in Uni using a linear regression to explore the relationship between housing and Brexit. 
 <br>
-Read it <a href="">here</a>.
 <br>
-And click <a href="">here</a> to see the code I used.
+Read it <a href="projects/Housing-And-Populism.pdf">here</a>.
+

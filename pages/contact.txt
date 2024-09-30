@@ -22,7 +22,7 @@
         output =
           `
         <div class="alert alert-success" role="alert">
-          Thanks, ${document.getElementById('name').value}! We'll be in touch soon!
+          Thanks, ${document.getElementById('name').value}! I'll be in touch soon!
         </div>        
         `;
         document.getElementById('output').innerHTML = output;
