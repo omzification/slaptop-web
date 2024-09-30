@@ -44,7 +44,7 @@
       let email = document.getElementById('email').value;
       let message = document.getElementById('message').value;
 
-      fetch('https://slaptop.azurewebsites.net/api/Contact?', {
+      fetch('https://slaptop-functions.azurewebsites.net/api/Contact', {
           method: 'POST',
           headers: {
             'Accept': 'application/json, text/plain, */*',

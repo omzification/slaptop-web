@@ -64,18 +64,6 @@
     }
   ],
   "projects":[
-    {
-      "title": "slaptop - Web Portfolio",
-      "id": "slaptop",
-      "icon": "assets/icons/Text.png",
-      "src": "projects/slaptop.txt"
-    },
-      {
-        "title": "ML - Loan Default Predictor",
-        "id": "ML",
-        "icon": "assets/icons/Text.png",
-        "src": "projects/ML.txt"
-      },
       {
         "title": "Web Dev for Empowerment Ldn",
         "id": "Web-Dev",
