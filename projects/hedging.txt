@@ -1,4 +1,4 @@
 A case study examining historical data on several prices of milk products, the milk price received by a family-run dairy farm in California, and how the farm can manage their milk price risk indirectly, using a cross hedge.
 <br>
 <br>
-Read it <a href="">https://github.com/omzification/Dairy-Farmers/tree/main</a>
+Read it <a href="https://github.com/omzification/Dairy-Farmers/tree/main">here</a>.
