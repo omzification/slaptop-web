@@ -15,15 +15,14 @@
        <div style="text-align: right; font-weight: lighter; font-size: 1rem; margin: 0.25rem; margin-right: 0.5rem">Sep 2021 – Jun 2024</div>
       <div style="margin: 0.5rem; font-size: 1rem; margin-top: 0px; margin-right:0px">
      
-        <strong>BSc in Economics and Management, Second Class Honours (Upper).</strong><br>
+        <strong>BSc Economics and Management.</strong><br>
       </div>
     </div>
   <div style="margin: 1.25rem;">
         <strong>Barnet and Southgate College</strong> 
         <div style="text-align: right; font-weight: lighter; font-size: 1rem; margin: 0.25rem; margin-right: 0.5rem">Sep 2019 – Jun 2021</div>
         <div style="margin: 0.5rem; font-size: 1rem; margin-top: 0px; margin-right:0px">
-          <strong>A-Levels:</strong>
-          Mathematics (B), Economics (B), Psychology (B)
+          <strong>A-Level Mathematics, Economics and Psychology.</strong>
         </div>
       </div>
 </div>
