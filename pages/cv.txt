@@ -11,18 +11,20 @@
 <div style="font-size: 1.25rem;">
   
     <div style="margin: 1.25rem;">
-      <strong>Royal Holloway, University of London</strong> 
+      <strong>BSc Economics and Management.</strong>
        <div style="text-align: right; font-weight: lighter; font-size: 1rem; margin: 0.25rem; margin-right: 0.5rem">Sep 2021 – Jun 2024</div>
+
       <div style="margin: 0.5rem; font-size: 1rem; margin-top: 0px; margin-right:0px">
-     
-        <strong>BSc Economics and Management.</strong><br>
+     <strong>Royal Holloway, University of London</strong> 
+        <br>
       </div>
     </div>
   <div style="margin: 1.25rem;">
-        <strong>Barnet and Southgate College</strong> 
+<strong>A-Level Mathematics, Economics and Psychology.</strong>
         <div style="text-align: right; font-weight: lighter; font-size: 1rem; margin: 0.25rem; margin-right: 0.5rem">Sep 2019 – Jun 2021</div>
         <div style="margin: 0.5rem; font-size: 1rem; margin-top: 0px; margin-right:0px">
-          <strong>A-Level Mathematics, Economics and Psychology.</strong>
+        <strong>Barnet and Southgate College</strong> 
+          
         </div>
       </div>
 </div>
